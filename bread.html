@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DelishVille</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="dropDown.css"/>
+   <link rel="stylesheet" type="text/css" href="leftoverStyle.css"/>
+  
+</head>
+<body>
+    <header>
+        <h1>Leftovers</h1>
+    </header>
+     <div id="nav-placeholder"></div>
+
+   <script>
+     fetch('nav.html')
+       .then(res => res.text())
+       .then(data => {
+         document.getElementById('nav-placeholder').innerHTML = data;
+       });
+   </script>
+
+
+  <div class="container">
+
+    <div class="item">
+      <img src="picture/breadPizza.jpeg" alt="Bread Pizza" />
+      <div class="text-content">
+        <div class="badge green">Bread Pizza</div>
+        <p>Quick mini pizzas using bread slices as the base, topped with sauce and cheese.</p>
+        <a href="https://www.youtube.com/shorts/PEc6Ds2BE3U?feature=share">Click here</a>
+      </div>
+    </div>
+
+      <div class="item">
+      <img src="picture/breadPudding.jpeg" alt="Bread Pudding" />
+      <div class="text-content">
+        <div class="badge yellow">Bread Pudding</div>
+        <p>A sweet dessert made by baking bread soaked in a custard mixture.</p>
+        <a href="https://www.youtube.com/shorts/VC02_MZz1WQ?feature=share">Click here</a>
+      </div>
+    </div>
+    
+    <div class="item">
+      <img src="picture/breadStick.jpeg" alt="Bread Sticks" />
+      <div class="text-content">
+        <div class="badge yellow">Bread Sticks</div>
+        <p>Crunchy fried bread sticks coated with Nestum cereal, perfect as a snack.</p>
+        <a href="https://youtu.be/5PtW91NJX9w">Click here</a>
+      </div>
+    </div>
+
+      <div class="item">
+      <img src="picture/caramelPudding.jpeg" alt="Caramel Bread Pudding" />
+      <div class="text-content">
+        <div class="badge green">Caramel Bread Pudding</div>
+        <p>Leftover bread baked in a rich caramel custard, creating a sweet and creamy dessert.</p>
+        <a href="https://youtu.be/Ou5dsR6DG6Y">Click here</a>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="picture/Croutons.jpeg" alt="Croutons" />
+      <div class="text-content">
+        <div class="badge green">Homemade Croutons</div>
+        <p>Crispy bread cubes seasoned and baked, perfect for soups and salads.</p>
+        <a href="https://youtu.be/cQN3strLH-o">Click here</a>
+      </div>
+    </div>
+
+      <div class="item">
+      <img src="picture/bananaBread.jpeg" alt="Banana Bread" />
+      <div class="text-content">
+        <div class="badge yellow">Banana Bread Cake</div>
+        <p>Moist banana cake made with mashed bananas and leftover bread bits.</p>
+        <a href="https://youtu.be/vym5jgTfzhY">Click here</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

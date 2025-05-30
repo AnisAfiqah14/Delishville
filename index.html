@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DelishVille</title>
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" type="text/css" href="dropDown.css"/>
+
+</head>
+<body>
+    <header>
+        <h1>DelishVille</h1>
+    </header>
+     <div id="nav-placeholder"></div>
+
+   <script>
+     fetch('nav.html')
+       .then(res => res.text())
+       .then(data => {
+         document.getElementById('nav-placeholder').innerHTML = data;
+       });
+   </script>
+</body>
+<main>
+    <article>
+        <h3>INTRODUCTION</h3>
+        <p>dnjbniakjnwseuabnuecnbaujsanecbunbauecfnbuajnseufnew</p>
+    </article>
+    <aside>
+        <h3 style="color: black;">TIPS</h3>
+    </aside>
+</main>
+</html>

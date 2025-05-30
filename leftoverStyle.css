@@ -1,0 +1,49 @@
+
+    .container {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .item {
+      display: flex;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      padding: 10px;
+      align-items: flex-start;
+    }
+
+    .item img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    .text-content {
+      flex: 1;
+    }
+
+        
+        .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 10px;
+      color: white;
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+
+    .green {
+      background-color: #4caf50;
+    }
+
+    .yellow {
+      background-color: #fbc02d;
+      color: black;
+    }
+  
